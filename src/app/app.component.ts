@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demoC02I';
+
+  isCountDown='Chua ket thuc';
+
+  finnishCha(){
+    this.isCountDown = 'Ket thuc';
+  }
 }
